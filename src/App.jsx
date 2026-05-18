@@ -16,7 +16,7 @@ function buildWhatsAppURL(phone, customerName) {
     `Dear ${customerName},
 
 ` +
-    `We have reviewed your PAN card application at *Lakshmi Tax Consultancy* ` +
+    `We have reviewed your PAN card application at *P R Lakshmi Tax Consultancy* ` +
     `and found an issue with one or more of your submitted certificates.
 
 ` +
@@ -27,7 +27,7 @@ function buildWhatsAppURL(phone, customerName) {
 ` +
     `Thank you,
 ` +
-    `Lakshmi Tax Consultancy`;
+    `P R Lakshmi Tax Consultancy`;
 
   return `https://wa.me/${e164}?text=${encodeURIComponent(message)}`;
 }
